@@ -1,0 +1,67 @@
+/* ============== COMMON STYLES ============== */
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #FFFFFF;
+  background-color: #1B1B1B;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+
+button {
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.accent-color {
+  color: #2e2f42;
+}
+
+.container {
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+/* ============== COMMON STYLES ============== */
+
+.order-background-img {
+  height: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 375px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
