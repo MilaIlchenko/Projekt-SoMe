@@ -48,6 +48,9 @@ button {
         width: 1440px;
         padding: 0 15px;
       
+        .styles {
+            
+        }
 }
 .hero {
  padding: 188px 0;
@@ -129,14 +132,175 @@ background: #FFBE1A;
 margin-top: 60px;
 }
 
+.order-service-btn:hover,
+.order-service-btn:focus {
+ border: 1px solid #f5ab3b;
+ background: #f8d47a;
+}
+
 /* VIDEO  */
 .video-reklame {
-width: 1110px;
+
 height: 467px;
-flex-shrink: 0;
 border-radius: 10px;
 background: #1B1B1B;
  margin-right: auto;
-  margin-left: auto;
-  width: 1440px;
+margin-left: auto;
+width: 1440px;
 }
+
+.btn-by {
+    color: #1E1E1E;
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 800;
+line-height: 1.7em; 
+display: flex;
+padding: 16px 60px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+background: #FFBE1A;
+margin-top: 60px;
+}
+
+.button-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            max-width: 1020px; 
+            margin: 0 auto; 
+            background: #1B1B1B;   
+        }
+
+.button {
+width: 255px;
+ height: 60px;
+margin-bottom: 16px; 
+display: flex;
+align-items: center;
+justify-content: center;
+border: 1px solid #ccc; 
+gap: 30px;
+border-radius: 8px;
+border: 1px solid #FFBE1A;
+background: #FFF;
+}
+
+.button:hover,
+.button:focus {
+ border: 1px solid #f5ab3b;
+ background: #f8d47a;
+}
+
+.button-section {
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+background: #1B1B1B;
+width: 1440px;
+margin-right: auto;
+margin-left: auto;
+}
+
+.container-om-os {
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+background: #1B1B1B;
+width: 1440px;
+margin-right: auto;
+margin-left: auto;
+height: 587px;
+}  
+
+.text {
+max-width: 1440px;
+margin-right: 20px;
+}
+
+.om-os-main {        
+color: #FFBE1A;
+font-family: Roboto;
+font-size: 40px;
+font-weight: 500;
+letter-spacing: -0.4px;
+text-transform: uppercase; 
+text-align: center;
+justify-content: center;
+align-items: center;
+}
+
+.om-os-text {
+color: #FFF;
+font-family: Montserrat;
+font-size: 18px;
+
+font-weight: 400;
+line-height: 140%;
+letter-spacing: -0.18px;
+width: 520px;
+background-color: #1E1E1E;
+margin-bottom: 30px;
+margin-top: 40px;
+}
+        
+.kunder-siger {
+color: #FFBE1A;
+font-family: Roboto;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.4px;
+text-transform: uppercase;
+text-align: center;
+background-color: #1E1E1E;
+width: 1440px;
+margin-right: auto;
+margin-left: auto;
+}
+
+.wrapper {
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+width: 1440px;
+margin-right: auto;
+margin-left: auto;
+background-color: #1E1E1E;
+border: #ccc;
+}
+
+  .card {
+    display: block;
+    max-width: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+  } 
+
+   .card-text {
+   color: #FFF;;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; 
+letter-spacing: -0.16px;
+width: 285px;
+   }
+
+   .card-name {
+   color: #FFBE1A;
+font-family: Roboto;
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.28px;
+   }
